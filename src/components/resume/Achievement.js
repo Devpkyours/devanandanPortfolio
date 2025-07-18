@@ -19,12 +19,12 @@ const Achievement = () => {
             title="Cisco Networking Academy - Cybersecurity Virtual Internship"
             subTitle="Issued by Cisco & NASSCOM FutureSkills Prime | Virtual Internship Experience"
             result="Successfully Completed"
-            des="Completed a virtual internship focused on the fundamentals of cybersecurity, including threat detection, network security, encryption, and ethical hacking basics. Gained hands-on exposure to real-world cybersecurity challenges through interactive labs and simulations. This internship enhanced my understanding of secure systems, risk management, and digital safety — essential skills for building secure software solutions."          />
+            des="Completed a virtual internship focused on the fundamentals of cybersecurity, including threat detection, network security, encryption, and ethical hacking basics. "          />
           <ResumeCard
             title=" Network Support and Security"
             subTitle="Cisco Networking Academy Program"
             result="Successfully Completed"
-            des="Completed an in-depth course on Network Support and Security through the Cisco Networking Academy. Covered key concepts such as network infrastructure, configuration, troubleshooting, security protocols, firewalls, and intrusion detection systems. This program enhanced my understanding of how to support and secure modern digital networks — an essential foundation for both software development and cybersecurity practices."
+            des="Completed an in-depth course on Network Support and Security through the Cisco Networking Academy. Covered key concepts such as network infrastructure, configuration, troubleshooting, security protocols, firewalls, and intrusion detection systems."
           /> 
           {/* <ResumeCard
             title="Lorem ipsum dolor sit amet."
