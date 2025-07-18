@@ -20,7 +20,7 @@ const Education = () => {
             title="B.Tech - Computer Science - Artificial Intelligence and Machine Learning"
             subTitle="Lakshmi Narain College of Technology Excellence - Bhopal (2022 - 2025)"
             result="7.4/10"
-            des="Successfully completed B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning. Gained strong proficiency in programming, data structures, and modern development frameworks. Worked on real-world web development projects and honed skills in logical problem-solving, frontend development, and collaborative teamwork."
+            des="Successfully completed B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning. Gained strong proficiency in programming, data structures, and modern development frameworks."
           />
           <ResumeCard
             title="Diploma "
