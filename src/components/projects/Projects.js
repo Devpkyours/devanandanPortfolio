@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -32,19 +32,18 @@ const Projects = () => {
           des=" A fully responsive and modern portfolio website built using React.js to showcase my projects, skills, and experience. Designed with a clean UI and smooth navigation, the site features modular components, a project gallery, contact section, and highlights of my education and certifications."
           src={projectThree}
         />
-        {/* <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
         <ProjectsCard
+          title="Razorpay Clone"
+          des=" A responsive web application built using React.js, designed to replicate the core functionalities of Razorpay."
+          src={projectFour}
+        />
+        {/* <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
-        /> */}
-        {/* <ProjectsCard
+        /> 
+        <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
