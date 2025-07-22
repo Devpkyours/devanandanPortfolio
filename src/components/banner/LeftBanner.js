@@ -1,13 +1,15 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
-  FaFacebookF,
-  FaTwitter,
+
   FaLinkedinIn,
   FaReact,
   FaGithub,
+  FaHtml5,
+  FaCss3,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss} from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -49,7 +51,7 @@ const LeftBanner = () => {
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/Devpkyours" target="blank">
+            {/* <a href="https://github.com/Devpkyours" target="blank">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
@@ -57,9 +59,9 @@ const LeftBanner = () => {
             <a href="https://github.com/Devpkyours" target="blank">
               <span className="bannerIcon">
                 <FaTwitter />
-              </span>
-            </a>
-            <a href="https://github.com/Devpkyours" target="blank">
+              </span> */}
+            {/* </a> */}
+            <a href="https://www.linkedin.com/in/devanandan-anand-8821ba203/" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
@@ -72,16 +74,17 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+              <FaHtml5 />
+
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <IoLogoJavascript  />
             </span>
             <span className="bannerIcon">
               <SiTailwindcss />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <FaReact />
             </span>
           </div>
         </div>
